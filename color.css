@@ -1,0 +1,1202 @@
+/* Global Styles */
+html {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    }
+    
+    body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f9f9f9;
+    }
+    
+    
+    /* Navbar Styles */
+    
+    .navbar {
+    background-color: #333;
+    color: #fff;
+    padding: 0.7rem;
+    display: flex;
+    justify-content: space-between;
+  align-items: center;
+    }
+    
+    .logo-right {
+    margin-left: 0%;
+    }
+    
+    .logo-right img {
+    width: 80px;
+    height: 65px;
+    }
+    
+    .nav-links {
+    list-style: none;
+    margin: 10px;
+    padding: 0;
+    display: flex;
+    }
+    
+    .nav-links li {
+    margin-right: 20px;
+    }
+    
+    .nav-links a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+    }
+    
+    .nav-links a:hover {
+    color: #ccc;
+    }
+    
+    
+    /* Auth Links Styles */
+    
+    .auth-links {
+    margin-left: 20px;
+    }
+    
+    .register {
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    }
+    
+    .login {
+    background-color: #337ab7;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    }
+    
+    
+    /* Search Bar Styles */
+    
+    .search-bar {
+    margin-left: 20px;
+    }
+    
+    .search-bar input[type="search"] {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    width: 200px;
+    }
+    
+    .search-btn {
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    }
+    
+
+/* Video styles */
+#background-video {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -1;
+    background-size: cover;
+    background-position: center;
+    }
+
+
+
+/* Footer styles */
+
+footer {
+    position: absolute;
+    left: 0px;
+    width: 100%;
+    background-color: #333;
+    color: #fff;
+    padding: 1em;
+    text-align: center;
+    clear: both;
+    
+}
+
+
+
+    footer {
+        background-color: #333;
+        color: #3cd1c5;
+        padding: 0px 0;
+        }
+        
+        .footer-container {
+        max-width: 1100px;
+        margin: 0 auto;
+        }
+        
+        .row {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        }
+        
+        .col-md-3 {
+        flex-basis: 25%;
+        }
+        
+        h3 {
+        font-size: 18px;
+        margin-bottom: 10px;
+        }
+        
+        ul {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        }
+        
+        li {
+        margin-bottom: 10px;
+        }
+        
+        .social-media li {
+        display: inline-block;
+        margin-right: 10px;
+        }
+        
+        .fa-brands {
+        font-size: 30px;
+        color: #fff;
+        }
+        
+        .copyright {
+        text-align: center;
+        padding-top: 50px;
+        border-top: 1px solid #444;
+        }
+        
+
+        .video-container {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+}
+
+#background-video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.overlay-content {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #fff;
+    z-index: 1;
+}
+
+.overlay-content h1 {
+    font-size: 40px;
+    font-weight: bold;
+    margin-top: 100px;
+}
+
+.overlay-content h2 {
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.overlay-content h3 {
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+
+.overlay-content p {
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+
+.overlay-content h1 {
+font-size: 65px;
+font-weight: bold;
+margin-bottom: 20px;
+animation: fadeIn 2s;
+}
+
+.overlay-content h2 {
+font-size: 39px;
+margin-bottom: 20px;
+animation: fadeIn 2.5s;
+}
+
+.overlay-content h3 {
+font-size: 26px;
+margin-bottom: 20px;
+animation: fadeIn 3s;
+}
+
+.overlay-content p {
+font-size: 15px;
+margin-bottom: 20px;
+animation: fadeIn 3.5s;
+}
+
+@keyframes fadeIn {
+0% {
+opacity: 0;
+transform: translateY(20px);
+}
+100% {
+opacity: 1;
+transform: translateY(0);
+}
+}
+
+@keyframes fadeInDelayed {
+0% {
+opacity: 0;
+transform: translateY(20px);
+}
+100% {
+opacity: 1;
+transform: translateY(0);
+}
+}
+
+.overlay-content h1 {
+animation-delay: 0s;
+}
+
+.overlay-content h2 {
+animation-delay: 0.5s;
+}
+
+.overlay-content h3 {
+animation-delay: 1s;
+}
+
+.overlay-content p {
+animation-delay: 1.5s;
+}
+
+
+/* Loader styles */
+.loader {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 5px solid #ccc;
+    border-top-color: #333;
+    animation: spin 1s linear infinite;
+    }
+    
+    @keyframes spin {
+    0% {
+    transform: translate(-50%, -50%) rotate(0deg);
+    }
+    100% {
+    transform: translate(-50%, -50%) rotate(360deg);
+    }
+    }
+
+/* Service Grid Styles */
+
+.service-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 40px;
+    margin: 40px 0;
+    }
+    
+    
+    /* Service Card Styles */
+    
+    .service-card {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 100px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    }
+    
+    
+    /* Responsive Grid */
+    
+    @media (max-width: 768px) {
+    .service-grid {
+    grid-template-columns: repeat(2, 1fr);
+    }
+    }
+    
+    @media (max-width: 480px) {
+    .service-grid {
+    grid-template-columns: repeat(1, 1fr);
+    }
+    }
+
+
+    /* Our Service h2*/
+    h2 {
+        font-family: Arial, sans-serif;
+        font-size: 36px;
+        font-weight: bold;
+        color: #333;
+        text-align: center;
+        margin-bottom: 10px;
+        text-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        border-bottom: 1px solid #ccc;
+        padding-bottom: 10px;
+      }
+      
+      p {
+        font-family: Open Sans, sans-serif;
+        font-size: 18px;
+        color: #666;
+        text-align: center;
+        max-width: 800px;
+        margin: 0 auto;
+        padding: 1 20px;
+        line-height: 1.4;
+        opacity: 1.8;
+      }
+      
+      
+      
+     /* Responsive Styles*/
+      
+      
+      @media (max-width: 768px) {
+        h2 {
+          font-size: 30px;
+        }
+        p {
+          font-size: 16px;
+          max-width: 600px;
+        }
+      }
+      
+      @media (max-width: 480px) {
+        h2 {
+          font-size: 24px;
+        }
+        p {
+          font-size: 14px;
+          max-width: 300px;
+        }
+      }
+  
+      .service-card {
+        transition: transform 0.3s;
+      }
+      
+      .service-card:hover {
+        transform: scale(1.2);
+      }
+
+      /* Fade in Service icons*/
+      .service-card {
+        transition: transform 0.3s;
+        }
+        
+        .service-card:hover .icon {
+        opacity: 1;
+        transform: scale(1.5);
+        }
+
+       /* Media Queries*/
+
+
+@media (max-width: 768px) {
+.service-grid {
+grid-template-columns: repeat(2, 1fr);
+}
+.service-card {
+width: 250px;
+height: 150px;
+}
+}
+
+@media (max-width: 480px) {
+.service-grid {
+grid-template-columns: repeat(1, 1fr);
+}
+.service-card {
+width: 200px;
+height: 100px;
+}
+}
+
+/* About Us Styles 
+
+
+.about-us {
+    background-color: #f7f7f7;
+    padding: 50px 0;
+    }
+    
+    .about-us .container {
+    max-width: 800px;
+    }
+    
+    .about-us-image {
+    border-radius: 50%;
+    width: 300px;
+    height: 365px;
+    object-fit: cover;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    margin: 20px auto;
+    }
+    
+    .about-us {
+        background-image: url('Image/building.jpg');
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        padding: 50px 0;*/
+      
+
+      /* About Us Styles our mission */
+
+/*
+.about-us {
+    background-image: url('');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    padding: 50px 0;
+    }
+    
+    .about-us-image {
+        border-radius: 50%;
+        width: 300px;
+        height: 365px;
+    object-fit: cover;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    margin: 20px auto;
+    }
+    
+    .about-us ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    }
+    
+    .about-us li {
+    margin-bottom: 10px;
+    }
+    
+    .about-us li::before {
+    content: "\2022";
+    font-weight: bold;
+    font-size: 1.5em;
+    color: #333;
+    margin-right: 10px;
+    }*/
+
+    .about-us {
+        padding: 50px 0;
+        background-color: #f7f7f7;
+        }
+        
+        .about-us-image {
+        width: 100%;
+        height: 400px;
+        object-fit: cover;
+        border-radius: 10px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+        margin: 20px 0;
+        }
+        
+        @media (max-width: 768px) {
+        .about-us-image {
+        height: 300px;
+        }
+        }
+        
+        @media (max-width: 480px) {
+        .about-us-image {
+        height: 200px;
+        }
+        }
+        
+        .about-us {
+            background-image: url('Image/Building.jpg');
+            background-size: cover;
+            background-position: center;
+            padding: 50px 0;
+          }
+          
+          .about-us .container {
+            background-color: rgba(255, 255, 255, 0.8); /* Optional: Add a translucent background */
+            padding: 20px;
+            border-radius: 10px;
+          }
+          
+          .about-us-image {
+            width: 100%;
+            height: 400px;
+            object-fit: cover;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+            margin: 20px 0;
+          }
+
+          /*Our team*/
+          .our-team {
+            padding: 50px 0;
+            background-color: #f7f7f7;
+            }
+            
+            .our-team .container {
+            max-width: 800px;
+            }
+            
+            .team-member {
+            text-align: center;
+            margin: 20px 0;
+            }
+            
+            .team-member img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+            border-radius: 50%;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+            }
+            
+            .team-member h3 {
+            font-weight: bold;
+            margin: 10px 0;
+            }
+            
+            .team-member p {
+            font-size: 14px;
+            color: #666;
+            }
+           
+          
+                
+                /*Out Team */
+                .our-team {
+                    background-image: url('Image/Vission.jpg');
+                    background-size: cover;
+                    background-position: center;
+                    padding: 50px 0;
+                    }
+                    
+                    .our-team .container {
+                    background-color: rgba(255, 255, 255, 0.8); /* Optional: Add a translucent background */
+                    padding: 20px;
+                    border-radius: 10px;
+                    }
+                    
+                    .team-grid {
+                    display: grid;
+                    grid-template-columns: repeat(4, 1fr);
+                    gap: 50px;
+                    }
+                    
+                    .team-member {
+                    text-align: center;
+                    cursor: pointer; /* Add pointer cursor */
+                    }
+                    
+                    .team-member img {
+                    width: 100%;
+                    height: 200px;
+                    object-fit: cover;
+                    border-radius: 50%;
+                    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+                    }
+                    
+                    .team-member h3 {
+                    font-weight: bold;
+                    margin: 10px 0;
+                    }
+                    
+                    .team-member p {
+                    font-size: 14px;
+                    color: #666;
+                    }
+
+                    @media (max-width: 768px) {
+                        .team-grid {
+                        grid-template-columns: repeat(2, 1fr);
+                        }
+                        }
+                        
+                        @media (max-width: 480px) {
+                        .team-grid {
+                        grid-template-columns: repeat(1, 1fr);
+                        }
+                        }
+
+                        /*Our clients ccs*/
+                            .testimonial-grid {
+                            display: grid;
+                            grid-template-columns: repeat(3, 1fr);
+                            gap: 20px;
+                            }
+                            
+                            .testimonial {
+                            text-align: center;
+                            }
+                            
+                            .testimonial img {
+                            width: 100px;
+                            height: 100px;
+                            object-fit: cover;
+                            border-radius: 50%;
+                            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+                            margin: 20px auto;
+                            }
+                            
+                            .testimonial p {
+                            font-size: 16px;
+                            color: #666;
+                            margin-bottom: 20px;
+                            }
+                            
+                            .testimonial h3 {
+                            font-weight: bold;
+                            margin-top: 10px;
+                            }
+
+                            .client-testimonials {
+                                background-image: url('Image/client.jpg');
+                                background-size: cover;
+                                background-position: center;
+                                padding: 50px 0;
+                                }
+                                
+                                .client-testimonials .container {
+                                background-color: rgba(255, 255, 255, 0.8);
+                                padding: 20px;
+                                border-radius: 10px;
+                                }
+                                
+                                .testimonial-grid {
+                                display: grid;
+                                grid-template-columns: repeat(3, 1fr);
+                                gap: 20px;
+                                }
+                                
+                                .testimonial {
+                                text-align: center;
+                                cursor: pointer; /* Add pointer cursor /
+                                box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); / Add shadow */
+                                transition: transform 0.3s ease-in-out;
+                                }
+                                
+                                .testimonial:hover {
+                                transform: scale(1.1); /* Add scale effect on hover /
+                                box-shadow: 0 0 20px rgba(0, 0, 0, 0.4); / Increase shadow on hover */
+                                }
+                                
+                                .testimonial img {
+                                width: 100px;
+                                height: 100px;
+                                object-fit: cover;
+                                border-radius: 50%;
+                                margin: 20px auto;
+                                }
+                                
+                                .testimonial p {
+                                font-size: 16px;
+                                color: #666;
+                                margin-bottom: 20px;
+                                }
+                                
+                                .testimonial h3 {
+                                font-weight: bold;
+                                margin-top: 10px;
+                                }
+                        
+                    
+                                /*Rotating Clients*/
+
+
+                                .client-testimonials {
+                                position: relative;
+                                }
+                                
+                                .testimonial-grid {
+                                display: grid;
+                                grid-template-columns: repeat(3, fr);
+                                gap: 25px;
+                                }
+                                
+                                .testimonial {
+                                text-align: center;
+                                cursor: pointer;
+                                box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+                                transition: transform 0.3s ease-in-out;
+                                }
+                                
+                                .testimonial:hover {
+                                transform: scale(1.1);
+                                box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+                                }
+                                
+                                /* Rotating movement */
+                                .testimonial-grid {
+                                animation: rotateClients 10s infinite linear;
+                                }
+                                
+                                @keyframes rotateClients {
+                                0% {
+                                transform: translateX(0);
+                                }
+                                100% {
+                                transform: translateX(-100%);
+                                }
+                                }
+                                
+                                
+                                /*Carousel Movement*/
+                                
+                                
+                                .testimonial-grid {
+                                overflow: hidden;
+                                animation: carousel 40s infinite linear;
+                                }
+                                
+                                @keyframes carousel {
+                                0% {
+                                transform: translateX(0);
+                                }
+                                100% {
+                                transform: translateX(-100%);
+                                }
+                                }
+                                
+                                
+                                /*Fade-In/Fade-Out Movement*/
+                                
+                                
+                                .testimonial-grid {
+                                animation: fadeInOut 5s infinite ease-in-out;
+                                }
+                                
+                                @keyframes fadeInOut {
+                                0% {
+                                opacity: 0;
+                                }
+                                50% {
+                                opacity: 1;
+                                }
+                                100% {
+                                opacity: 0;
+                                }
+                                }
+                                
+                                
+                               /* Zoom-In/Zoom-Out Movement*/
+                                
+                                
+                                .testimonial-grid {
+                                animation: zoomInOut 10s infinite ease-in-out;
+                                }
+                                
+                                @keyframes zoomInOut {
+                                0% {
+                                transform: scale(1);
+                                }
+                                50% {
+                                transform: scale(1.1);
+                                }
+                                100% {
+                                transform: scale(1);
+                                }
+                                }
+                                
+                                
+                               /* 3D Rotation Movement*/
+                                
+                                
+                                .testimonial-grid {
+                                perspective: 1000px;
+                                animation: rotate3D 10s infinite linear;
+                                }
+                                
+                                @keyframes rotate3D {
+                                0% {
+                                transform: rotateY(0);
+                                }
+                                100% {
+                                transform: rotateY(360deg);
+                                }
+                                }
+
+                            
+                                /*Our sponders*/
+                                  .sponsors {
+                                    background-image: url('Image/cloud.jpg'); /* Add background image */
+                                    background-size: cover;
+                                    background-position: center;
+                                    padding: 50px 0;
+                                    }
+                                    
+                                    .sponsors .container {
+                                    max-width: 800px;
+                                    margin: 0 auto;
+                                    background-color: rgba(255, 255, 255, 0.8); /* Add translucent background */
+                                    padding: 20px;
+                                    border-radius: 10px;
+                                    }
+                                    
+                                    .sponsor-logos {
+                                    display: flex;
+                                    flex-wrap: wrap;
+                                    justify-content: center;
+                                    align-items: center;
+                                    }
+                                    
+                                    .sponsor-logo {
+                                    margin: 20px;
+                                    width: 150px;
+                                    }
+                                    
+                                    .sponsor-logo img {
+                                    width: 100%;
+                                    height: 50px;
+                                    object-fit: contain;
+                                    filter: grayscale(100%);
+                                    transition: filter 0.3s ease-in-out;
+                                    }
+                                    
+                                    .sponsor-logo:hover img {
+                                    filter: grayscale(0);
+                                    transform: scale(1.1);
+                                    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+                                    }
+
+
+                                    /*Responsive Design:
+                                 
+- Use media queries to adjust sponsor logo size and layout for smaller screens.
+*/
+                                    @media (max-width: 768px) {
+                                      .sponsor-logo {
+                                      width: 100px;
+                                      }
+                                      }
+                                      
+                                      @media (max-width: 480px) {
+                                      .sponsor-logo {
+                                      margin: 10px;
+                                      }
+                                      }
+
+
+                                      /*All page html with stylish with contents*/
+                                      /* Global Styles */
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  animation: fadeIn 2s ease-in-out;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+
+
+Page-Specific Fade-In Effects
+
+
+/* About Us Section */
+
+.about-us {
+  animation: fadeIn 2s ease-in-out;
+}
+
+/* Our Team Section */
+
+.our-team {
+  animation: fadeIn 2.5s ease-in-out;
+}
+
+/* Client Testimonials Section */
+
+.client-testimonials {
+  animation: fadeIn 3s ease-in-out;
+}
+
+/* Sponsors Section */
+
+.sponsors {
+  animation: fadeIn 2.5s ease-in-out;
+}
+
+/* Footer Section */
+
+footer {
+  animation: fadeIn 2s ease-in-out;
+}
+
+
+
+Individual Element Fade-In Effects
+
+
+/* Fade-In Images */
+
+.about-us-image, .team-member img, .testimonial img, .sponsor-logo img {
+  animation: fadeIn 2s ease-in-out;
+}
+
+/* Fade-In Headings */
+
+h2, h3 {
+  animation: fadeIn 1.5s ease-in-out;
+}
+
+/* Fade-In Paragraphs */
+
+p {
+  animation: fadeIn 2s ease-in-out;
+}
+
+
+
+/*Fade-In Delay*/
+
+
+/*To add a delay to the fade-in effect, use the animation-delay property:
+
+
+/* Delayed Fade-In Effect */
+
+.about-us {
+  animation: fadeIn 2s ease-in-out;
+  animation-delay: 1s;
+}
+
+
+
+/*Responsive Design*/
+
+
+/*To ensure a smooth fade-in effect on smaller screens, add media queries:
+
+
+/* Responsive Fade-In Effect */
+
+@media (max-width: 768px) {
+  .about-us, .our-team, .client-testimonials, .sponsors, footer {
+    animation-duration: 1.5s;
+  }
+}
+
+/*Registration for css of the web design*/
+.stylish-form {
+  max-width: 500px;
+  margin: 40px auto;
+  padding: 20px;
+  background: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .stylish-form h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333;
+  }
+  
+  .form-group {
+  margin-bottom: 20px;
+  }
+  
+  .form-group label {
+  font-weight: bold;
+  margin-bottom: 10px;
+  display: block;
+  }
+  
+  .form-group input[type="text"],
+  .form-group input[type="email"],
+  .form-group input[type="password"],
+  .form-group select {
+  width: 100%;
+  height: 40px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  }
+  
+  .form-group input[type="checkbox"] {
+  margin-right: 10px;
+  }
+  
+  button[type="submit"] {
+  width: 100%;
+  height: 40px;
+  background: #4CAF50;
+  color: #fff;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  }
+  
+  button[type="submit"]:hover {
+  background: #3e8e41;
+  }
+
+  /*Combo control famale and male*/
+  .combo-control {
+    position: relative;
+    }
+    
+    .combo-control select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    }
+    
+    .combo-control input[type="text"] {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background: transparent;
+    z-index: 1;
+    display: none; /* Hide initially */
+    }
+    
+/*Login css */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+  }
+  
+  .login-container {
+  width: 300px;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .login-form {
+  margin-top: 20px;
+  }
+  
+  .form-group {
+  margin-bottom: 20px;
+  }
+  
+  .form-group label {
+  display: block;
+  margin-bottom: 10px;
+  }
+  
+  .input-group {
+  position: relative;
+  }
+  
+  .input-group input[type="text"], .input-group input[type="password"], .input-group input[type="email"] {
+  width: 100%;
+  height: 40px;
+  padding: 10px 30px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  }
+  
+  .input-group i {
+  position: absolute;
+  top: 12px;
+  left: 10px;
+  color: #666;
+  }
+  
+  button[type="submit"] {
+  width: 100%;
+  height: 40px;
+  background-color: #4CAF50;
+  color: #fff;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  }
+  
+  button[type="submit"]:hover {
+  background-color: #3e8e41;
+  }
+  
+  a {
+  text-decoration: none;
+  color: #4CAF50;
+  }
+  
+  a:hover {
+  color: #3e8e41;
+  }
+  
+  .forgot-password-form {
+  margin-top: 20px;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  background-color: #f9f9f9;
+  }
+
+                                      
+                                      
+                                
+                                  
+                                  
+            
+    
+    
+    
+      
+      
+    
+    
+        
+  
